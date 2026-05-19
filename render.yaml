@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: ai-browser-agent
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: BROWSER_HEADLESS
+        value: "true"
+      - key: BROWSER_SLOW_MO
+        value: "0"
+      - key: DEBUG
+        value: "false"
+      - key: AI_PROVIDER
+        value: gemini
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
