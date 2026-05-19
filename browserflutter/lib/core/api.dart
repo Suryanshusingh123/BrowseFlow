@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
-const String kBaseUrl = 'http://localhost:8000';
+const String kBaseUrl = 'https://ai-browser-agent-cmyr.onrender.com';
 
 class ApiException implements Exception {
   final int statusCode;
