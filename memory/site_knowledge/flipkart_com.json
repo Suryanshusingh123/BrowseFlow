@@ -1,0 +1,15 @@
+{
+  "domain": "flipkart.com",
+  "updated": "2026-05-19T05:25:31.576183+00:00",
+  "run_count": 2,
+  "successful_patterns": [
+    "type succeeded — Type the search query 'wireless earbuds under 3000' into the search bar and pres",
+    "type succeeded — Type the search query into the search bar and press enter to initiate the search"
+  ],
+  "failed_patterns": [],
+  "known_obstacles": [],
+  "extraction_hints": [
+    "extract returned 12 items — The search results are displayed, and I need to extract the",
+    "extract returned 5 items — The search results are displayed, so I need to extract the r"
+  ]
+}

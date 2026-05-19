@@ -1,0 +1,20 @@
+# Web framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+
+# Browser automation
+playwright==1.49.0
+
+# AI clients
+google-generativeai==0.8.3
+openai==1.57.0
+
+# Data validation
+pydantic==2.10.3
+pydantic-settings==2.7.0
+
+# HTTP client (for AI APIs)
+httpx==0.28.1
+
+# Environment variables
+python-dotenv==1.0.1

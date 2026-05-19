@@ -1,0 +1,25 @@
+{
+  "domain": "github.com",
+  "updated": "2026-05-19T06:38:54.932212+00:00",
+  "run_count": 1,
+  "successful_patterns": [
+    {
+      "pattern": "Clicked 'README.md'",
+      "source": "executor_failure",
+      "hits": 1,
+      "first_seen": "2026-05-19T06:38:54.932254+00:00",
+      "last_seen": "2026-05-19T06:38:54.932254+00:00"
+    }
+  ],
+  "failed_patterns": [],
+  "known_obstacles": [],
+  "extraction_hints": [
+    {
+      "pattern": "Extracted 1 items: Project name, description, features, and setup instructions from the README.md file. (removed 0 dupes, enriched 0 links)",
+      "source": "executor_failure",
+      "hits": 1,
+      "first_seen": "2026-05-19T06:38:54.932279+00:00",
+      "last_seen": "2026-05-19T06:38:54.932279+00:00"
+    }
+  ]
+}
